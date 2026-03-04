@@ -37,7 +37,7 @@ export default function StorySection() {
           >
             <div className="absolute inset-0 bg-[#d4af37] transform rotate-3 rounded-2xl opacity-20"></div>
             <img 
-              src="https://picsum.photos/seed/motherhood/800/1000" 
+              src="/assets/story.jpg" 
               alt="Madre amamantando - Placeholder" 
               className="relative rounded-2xl shadow-xl w-full h-auto object-cover aspect-[4/5]"
             />
