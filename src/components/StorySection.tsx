@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import storyImg from "../assets/story.jpg";
 
 export default function StorySection() {
   return (
@@ -37,7 +38,7 @@ export default function StorySection() {
           >
             <div className="absolute inset-0 bg-[#d4af37] transform rotate-3 rounded-2xl opacity-20"></div>
             <img 
-              src="/assets/story.jpg" 
+              src={storyImg} 
               alt="Madre amamantando - Placeholder" 
               className="relative rounded-2xl shadow-xl w-full h-auto object-cover aspect-[4/5]"
             />
