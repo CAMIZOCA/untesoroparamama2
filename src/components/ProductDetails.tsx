@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { Package, Heart, Sparkles, CheckCircle } from "lucide-react";
+import storyImg from "../assets/joyaskit.png";
 
 export default function ProductDetails() {
   const features = [
@@ -82,7 +83,7 @@ export default function ProductDetails() {
             <div className="h-96 lg:h-auto relative">
                {/* Placeholder for the kit box image */}
               <img 
-                src="https://picsum.photos/seed/giftbox/800/600" 
+                src={storyImg} 
                 alt="Kit Un Tesoro Para Mamá" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
