@@ -1,24 +1,28 @@
 import { motion } from "motion/react";
+import joyaImg01 from "../assets/joya01.png";
+import joyaImg02 from "../assets/joya02.png";
+import joyaImg03 from "../assets/joya03.png";
+import joyaImg04 from "../assets/joya04.png";
 
 export default function Gallery() {
   const images = [
     {
-      src: "https://picsum.photos/seed/necklace1/600/600",
+      src:{joyaImg01} ,
       alt: "Collar de leche materna sobre madera",
       caption: "Un vínculo irrompible"
     },
     {
-      src: "https://picsum.photos/seed/necklace2/600/600",
+      src:{joyaImg02} ,
       alt: "Collar de leche materna puesto",
       caption: "Llévalo siempre contigo"
     },
     {
-      src: "https://picsum.photos/seed/box/600/600",
+      src:{joyaImg03} ,
       alt: "Caja del Kit Un Tesoro Para Mamá",
       caption: "Todo lo que necesitas"
     },
     {
-      src: "https://picsum.photos/seed/sketch/600/600",
+      src:{joyaImg04} ,
       alt: "Logo Un Tesoro Para Mamá",
       caption: "Hecho a mano"
     }
