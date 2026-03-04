@@ -7,22 +7,22 @@ import joyaImg04 from "../assets/joya04.png";
 export default function Gallery() {
   const images = [
     {
-      src:{joyaImg01} ,
+      src: joyaImg01,
       alt: "Collar de leche materna sobre madera",
       caption: "Un vínculo irrompible"
     },
     {
-      src:{joyaImg02} ,
+      src: joyaImg02,
       alt: "Collar de leche materna puesto",
       caption: "Llévalo siempre contigo"
     },
     {
-      src:{joyaImg03} ,
+      src: joyaImg03,
       alt: "Caja del Kit Un Tesoro Para Mamá",
       caption: "Todo lo que necesitas"
     },
     {
-      src:{joyaImg04} ,
+      src: joyaImg04,
       alt: "Logo Un Tesoro Para Mamá",
       caption: "Hecho a mano"
     }
